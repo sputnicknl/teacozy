@@ -1,15 +1,21 @@
+html {
+  background-color: black;
+}
+
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 69px;
+  width:1200px;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  border-bottom: 1px solid seashell;
 }
 
 .header a {
@@ -19,4 +25,66 @@
 .header .logo img {
   height: 50px;
   margin-left: 10px;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  z-index: 1;
+}
+
+.mission-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+}
+
+.mission-text {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+}
+
+.tea-month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+.tea-month .title {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1000px;
+}
+
+.image-box .image-box-text {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.image-box {
+  margin-right: 20px;
 }
