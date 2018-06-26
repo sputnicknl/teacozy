@@ -82,7 +82,7 @@ body {
   width: 1000px;
 }
 
-.image-box .image-box-text {
+.image-box-text {
   text-align: center;
   margin-top: 10px;
 }
@@ -119,7 +119,10 @@ body {
 }
 
 .location-text {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-content: center;
   font-size: 22px;
 }
 
