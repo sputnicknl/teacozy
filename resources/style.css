@@ -18,15 +18,14 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
   height: 69px;
   width: 100%;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
   opacity: 0.9;
   text-align: center;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0;
 }
 
 .header a {
@@ -48,7 +47,6 @@ body {
   background-image: url("../resources/images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  z-index: 1;
 }
 
 .mission-banner {
