@@ -70,7 +70,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 1200px;
-  margin-bottom: 20px;
+  margin: 40px 0 20px 0;
 }
 
 .tea-month .title {
@@ -89,7 +89,7 @@ body {
 
 .image-box-text  {
   text-align: center;
-  margin: 10px 0 10px 0;
+  margin: 10px 0 20px 0;
 }
 
 .image-box-text h4 {
@@ -108,9 +108,11 @@ body {
   height: 500px;
   width: 1200px;
   background-image: url("../resources/images/img-locations-background.jpg");
+  background-size: cover;
   justify-content: center;
   align-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 
 .location-boxes-container {
