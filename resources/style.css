@@ -12,13 +12,14 @@ body {
   align-items: center;
 }
 
+/* HEADER SECTION */
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 69px;
-  width:1200px;
+  width: 100%;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -37,6 +38,9 @@ body {
   margin-left: 10px;
 }
 
+/* END OF HEADER SECTION */
+
+/* MISSION BANNER */
 .mission {
   display: flex;
   justify-content: center;
@@ -59,13 +63,16 @@ body {
 .mission-text {
   text-align: center;
 }
+/* END OF MISSION BANNER */
 
+/* TEA OF THE MONTH SECTION */
 .tea-month {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 1200px;
+  margin-bottom: 20px;
 }
 
 .tea-month .title {
@@ -82,15 +89,21 @@ body {
   width: 1000px;
 }
 
-.image-box-text {
+.image-box-text  {
   text-align: center;
-  margin-top: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.image-box-text h4 {
+  margin: 0 0 0 0;
 }
 
 .image-box {
   margin-right: 20px;
 }
+/* END OF TEA OF THE MONTH SECTION */
 
+/* LOCATIONS SECTION */
 .locations {
   display: flex;
   flex-direction: column;
@@ -106,6 +119,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 980px;
+  height: 500px;
 }
 
 .location-box {
@@ -125,7 +139,9 @@ body {
   align-content: center;
   font-size: 22px;
 }
+/* END OF LOCATIONS SECTION */
 
+/* FOOTER AND COPYRIGHT */
 .footer {
   display: flex;
   flex-direction: column;
@@ -149,3 +165,4 @@ body {
   text-align: left;
   margin-left: 20px;
 }
+/* END OF FOOTER AND COPYRIGHT */
